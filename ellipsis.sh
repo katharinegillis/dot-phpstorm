@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pkg.link() {
-    fs.link_files files
+    [ -d "$PKG_PATH/files" ] && fs.link_files files
 }
 
 pkg.install() {
