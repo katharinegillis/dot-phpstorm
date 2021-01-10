@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Install dependencies
+sudo apt-get install -y libnss3 libnspr4 libatk1.0 libatk-bridge2.0 libxcursor1 libgbm-dev libpango-1.0 libpangocairo-1.0 libcups2 libatspi2.0 libxss1
+
 if ls /opt/PhpStorm-* 1> /dev/null 2>&1; then
     echo "PhpStorm already installed, please check for updates by running as root"
 else
