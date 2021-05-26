@@ -1,5 +1,5 @@
 # katharinegillis/phpstorm
-Just a bunch of dotfiles.
+Install PhpStorm.
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
