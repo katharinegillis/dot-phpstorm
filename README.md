@@ -1,5 +1,5 @@
 # katharinegillis/phpstorm
-Install PhpStorm.
+Installs PhpStorm.
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
