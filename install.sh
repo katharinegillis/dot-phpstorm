@@ -15,6 +15,8 @@ if [ "$SYSTEM" == "wsl" ]; then
 
     # Clean up
     sudo rm -rf PhpStorm-2020.2.tar.gz
-else
+elif [ "$SYSTEM" == "linux" ]; then
     sudo snap install phpstorm --classic
+elif [ "$SYSTEM" == "mac" ]; then
+    brew install --cask phpstorm
 fi
